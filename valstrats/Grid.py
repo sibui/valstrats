@@ -19,7 +19,7 @@ class Grid:
         grid.row = row;
         grid.column = column;
         grid.time = time;
-        grid.name = "Default";
+        grid.name = name;
         
         tempGrid = np.empty(row*column, dtype=object);
         for i in range(row*column):
